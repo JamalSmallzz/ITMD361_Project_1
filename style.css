@@ -1,0 +1,19 @@
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9rem;
+    }
+    section {
+        padding: 15px;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}

@@ -4,7 +4,9 @@ figure {
     margin: 20px 0;
 }
 
-
+body{
+    font-family: 'Poppins', sans-serif;
+}
 @media (max-width: 768px) {
     body {
         font-size: 0.9rem;

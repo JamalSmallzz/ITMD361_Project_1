@@ -85,11 +85,10 @@ a.resumeDownload {
   justify-content: center;
   gap: 20px;
   padding: 20px 0;
-  font-size: 1.1rem;
 }
 
 .contactMe p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 h1, h2, h3 {
@@ -146,12 +145,14 @@ header {
   font-family: 'Arial', sans-serif;
   text-align: center;
 }
-.hobbies figcaption{
+
+.hobbies section figcaption {
   font-weight: bold;
   font-size: 1rem;
 }
-.hobbies ul,
-.hobbies p{
+
+.hobbies section ul,
+.hobbies section p {
   font-size: 1.2rem;
 }
 
@@ -160,6 +161,8 @@ header {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
 }
-.index figcaption, .index p{
+
+.index section figcaption,
+.index section p {
   font-size: 1.3rem;
 }

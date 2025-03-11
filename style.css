@@ -105,7 +105,7 @@ h3 {
   font-size: 1.4rem;
 }
 
-section {
+div:not(.contactMe) {
   max-width: 800px;
   margin: 20px auto;
   padding: 40px;
@@ -127,16 +127,16 @@ header {
   color: black;
 }
 
-.resume section > ul {
+.resume div > ul {
   list-style-type: disc;
   padding-left: 20px;
   text-align: left;
 }
 
-.resume section h1:not(.myName),
-.resume section h2,
-.resume section h3,
-.resume section p {
+.resume div h1:not(.myName),
+.resume div h2,
+.resume div h3,
+.resume div p {
   text-align: left;
 }
 
@@ -146,13 +146,13 @@ header {
   text-align: center;
 }
 
-.hobbies section figcaption {
+.hobbies div figcaption {
   font-weight: bold;
   font-size: 1rem;
 }
 
-.hobbies section ul,
-.hobbies section p {
+.hobbies div ul,
+.hobbies div p {
   font-size: 1.2rem;
 }
 
@@ -162,7 +162,7 @@ header {
   text-align: center;
 }
 
-.index section figcaption,
-.index section p {
+.index div figcaption,
+.index div p {
   font-size: 1.3rem;
 }

@@ -7,10 +7,13 @@ figcaption {
     font-style: italic;
     color: #555;
 }
-
+video{
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+}
 body {
   font-family: 'Poppins', sans-serif;
-  text-align: center;
   font-size: 1rem;
   background-color: #ccc;
   color: #333;
@@ -50,5 +53,25 @@ a:hover{
   text-decoration: underline;
 }
 
+.contactMe {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1rem;
+  padding: 10px 0;
+}
+h1, h2, h3{
+  text-align: center;
+  color: black;
+    font-size: 2rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
 
-
+h3 {
+  font-size: 1.4rem;
+}
+p {
+    text-align: center;
+}

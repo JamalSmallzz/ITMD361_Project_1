@@ -11,12 +11,37 @@ figcaption {
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
-  background-color: cornsilk;
+  background-color: #ccc;
   color: #333;
   line-height: 1.6;
   margin: 0;
   padding: 0;
 }
 
+nav {
+    background-color: #333;
+    padding: 1rem 0;
+    text-align: center;
+}
 
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #f4a261;
+}
 

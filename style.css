@@ -75,7 +75,7 @@ a:hover {
 
 a.resumeDownload {
   font-size: 1.4rem;
-  display: inline-block;
+  text-align: center;
   padding: 5px 10px;
 }
 

@@ -1,11 +1,23 @@
+
 figure {
-  text-align: center;
-  margin: 20px 0;
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+figure img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 
 figcaption {
     font-style: italic;
     color: #555;
+    max-width: 600px;
+    margin: 20px auto;
 }
 video{
     display: block;
@@ -71,6 +83,13 @@ h2 {
 h3 {
   font-size: 1.4rem;
 }
+
+p {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
 section {
     max-width: 800px;
     margin: 20px auto;
@@ -78,4 +97,25 @@ section {
     background: white;
     box-shadow: 0 0 10px;
     border-radius: 8px;
+    text-align: center;
+}
+
+.hobbies {
+    background-color: #f4e1c4;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.resume {
+    background-color: #e0e0e0;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.index {
+    background-color: #dff5e3;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #2a9d8f;
 }

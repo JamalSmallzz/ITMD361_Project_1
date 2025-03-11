@@ -14,8 +14,13 @@ body{
     section {
         padding: 15px;
     }
-    nav ul li {
+nav ul li {
         display: block;
         margin: 10px 0;
-    }
+}
+}
+nav {
+    background-color: #FFFDD0;
+    padding: 1rem 0;
+    text-align: center;
 }

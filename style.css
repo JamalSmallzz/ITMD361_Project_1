@@ -10,6 +10,7 @@ figcaption {
 
 body {
   font-family: 'Poppins', sans-serif;
+  text-align: center;
   font-size: 1rem;
   background-color: #ccc;
   color: #333;
@@ -22,11 +23,6 @@ nav {
     background-color: #333;
     padding: 1rem 0;
     text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
 }
 
 nav ul li {
@@ -44,4 +40,15 @@ nav ul li a {
 nav ul li a:hover {
     color: #f4a261;
 }
+
+a {
+    color: darkorange;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+
 

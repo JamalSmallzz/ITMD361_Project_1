@@ -98,6 +98,39 @@ section {
 }
 
 
+.resume {
+    background-color: #DCDCDC;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #2a9d8f;
+}
+.resume nav ul li a {
+    color: #DCDCDC;
+}
+
+.resume nav ul li a:hover {
+    color: #DAA520;
+}
+
+
+
+.hobbies {
+    background-color: #79cdcd;
+    padding: 25px;
+    border-radius: 10px;
+    border: 2px solid #2a9d8f;
+}
+.hobbies nav ul li a {
+    color: #79cdcd;
+}
+
+.hobbies nav ul li a:hover {
+    color: #B22222;
+}
+
+
+
+
 .index {
     background-color: #9bcd9b;
     padding: 25px;

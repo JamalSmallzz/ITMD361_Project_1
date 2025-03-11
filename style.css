@@ -1,26 +1,22 @@
-
 figure {
-    text-align: center;
-    margin: 20px 0;
+  text-align: center;
+  margin: 20px 0;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
+figcaption {
+    font-style: italic;
+    color: #555;
 }
-@media (max-width: 768px) {
-    body {
-        font-size: 0.9rem;
-    }
-    section {
-        padding: 15px;
-    }
-nav ul li {
-        display: block;
-        margin: 10px 0;
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  background-color: cornsilk;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 }
-}
-nav {
-    background-color: #FFFDD0;
-    padding: 1rem 0;
-    text-align: center;
-}
+
+
+

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 figure {
     text-align: center;
@@ -37,6 +38,7 @@ nav {
     background-color: #333;
     padding: 1rem 0;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 nav ul li {
@@ -48,17 +50,12 @@ nav ul li a {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
+    color: white;
 }
 
-
-
-a {
-    color: darkorange;
-    text-decoration: none;
-    font-weight: bold;
-}
 a:hover{
   text-decoration: underline;
+  color: pink;
 }
 
 .contactMe {
@@ -67,6 +64,7 @@ a:hover{
   gap: 20px;
   font-size: 1rem;
   padding: 10px 0;
+  font-size: 1.1rem;
 }
 h1, h2, h3{
   text-align: center;
@@ -81,12 +79,6 @@ h3 {
   font-size: 1.4rem;
 }
 
-p {
-    text-align: center;
-    margin: 0 auto;
-    max-width: 600px;
-}
-
 section {
     max-width: 800px;
     margin: 20px auto;
@@ -97,50 +89,30 @@ section {
     text-align: center;
 }
 
+header{
+    text-align: center;
+    color: black;
+    font-size: 1.1rem;
+}
 
 .resume {
     background-color: #DCDCDC;
-    padding: 25px;
-    border-radius: 10px;
-    border: 2px solid #2a9d8f;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
 }
-.resume nav ul li a {
-    color: #DCDCDC;
+.resume section > ul{
+   list-style-type: disc;
+   padding-left: 20px;
+   text-align: left;
 }
-
-.resume nav ul li a:hover {
-    color: #DAA520;
-}
-
 
 
 .hobbies {
-    background-color: #79cdcd;
-    padding: 25px;
-    border-radius: 10px;
-    border: 2px solid #2a9d8f;
+  background-color: #79cdcd;
+  font-family: 'Arial', sans-serif;
 }
-.hobbies nav ul li a {
-    color: #79cdcd;
-}
-
-.hobbies nav ul li a:hover {
-    color: #B22222;
-}
-
-
-
 
 .index {
     background-color: #9bcd9b;
-    padding: 25px;
-    border-radius: 10px;
-    border: 2px solid #2a9d8f;
-}
-.index nav ul li a {
-    color: #9bcd9b;
-}
-
-.index nav ul li a:hover {
-    color: #9370DB;
+    font-family: 'Courier New', Courier, monospace;
 }

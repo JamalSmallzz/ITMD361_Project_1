@@ -45,15 +45,12 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-nav ul li a:hover {
-    color: #f4a261;
-}
+
 
 a {
     color: darkorange;
@@ -100,22 +97,17 @@ section {
     text-align: center;
 }
 
-.hobbies {
-    background-color: #f4e1c4;
-    padding: 30px;
-    border-radius: 10px;
-}
-
-.resume {
-    background-color: #e0e0e0;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
-}
 
 .index {
-    background-color: #dff5e3;
+    background-color: #9bcd9b;
     padding: 25px;
     border-radius: 10px;
     border: 2px solid #2a9d8f;
+}
+.index nav ul li a {
+    color: #9bcd9b;
+}
+
+.index nav ul li a:hover {
+    color: #9370DB;
 }

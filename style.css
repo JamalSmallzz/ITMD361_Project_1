@@ -134,10 +134,10 @@ header {
   text-align: left;
 }
 
-.resume h1:not(.myName),
-.resume h2,
-.resume h3,
-.resume p {
+.resume section h1:not(.myName),
+.resume section h2,
+.resume section h3,
+.resume section p {
   text-align: left;
 }
 
@@ -146,14 +146,12 @@ header {
   font-family: 'Arial', sans-serif;
   text-align: center;
 }
-
-.hobbies section figcaption {
+.hobbies figcaption{
   font-weight: bold;
   font-size: 1rem;
 }
-
-.hobbies section ul,
-.hobbies section p {
+.hobbies ul,
+.hobbies p{
   font-size: 1.2rem;
 }
 
@@ -162,8 +160,6 @@ header {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
 }
-
-.index section figcaption,
-.index section p {
+.index figcaption, .index p{
   font-size: 1.3rem;
 }

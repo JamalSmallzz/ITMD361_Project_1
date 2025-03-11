@@ -16,7 +16,7 @@ figure img {
 
 figcaption {
   font-style: italic;
-  color: #555;
+  color: black;
   max-width: 600px;
   margin: 20px auto;
 }
@@ -25,6 +25,13 @@ video {
   display: block;
   max-width: 100%;
   margin: 20px auto;
+}
+
+header p {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+  text-align: center;
 }
 
 body {
@@ -66,14 +73,23 @@ a:hover {
   color: pink;
 }
 
+a.resumeDownload {
+  font-size: 1.4rem;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
 .contactMe {
   text-align: center;
   display: flex;
   justify-content: center;
   gap: 20px;
-  font-size: 1rem;
   padding: 20px 0;
   font-size: 1.1rem;
+}
+
+.contactMe p {
+  font-size: 1.2rem;
 }
 
 h1, h2, h3 {
@@ -118,13 +134,27 @@ header {
   text-align: left;
 }
 
-.resume section h1:not(.myName), .resume section h2, .resume section h3, .resume section p {
+.resume h1:not(.myName),
+.resume h2,
+.resume h3,
+.resume p {
   text-align: left;
 }
+
 .hobbies {
   background-color: #79cdcd;
   font-family: 'Arial', sans-serif;
   text-align: center;
+}
+
+.hobbies section figcaption {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.hobbies section ul,
+.hobbies section p {
+  font-size: 1.2rem;
 }
 
 .index {
@@ -133,3 +163,7 @@ header {
   text-align: center;
 }
 
+.index section figcaption,
+.index section p {
+  font-size: 1.3rem;
+}
